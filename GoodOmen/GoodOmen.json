@@ -1,0 +1,15 @@
+{
+	"Author": "Chirp",
+	"Name": "GoodOmen",
+	"PunchLine": "Accessibility plugin for modifying AoE colors.",
+	"Description": "Accessibility plugin for modifying AoE colors.",
+	"InternalName": "GoodOmen",
+	"AssemblyVersion": "0.2.0",
+	"ApplicableVersion": "any",
+	"DalamudApiLevel": 10,
+	"Tags": [
+		"omen",
+		"aoe",
+		"color"
+	]
+}
