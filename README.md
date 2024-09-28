@@ -7,6 +7,8 @@ This is an early implementation that will be refined in later versions.
 
 ## Installation
 
+This is a plugin for Dalamud, which is available using [XIVLauncher](https://github.com/goatcorp/FFXIVQuickLauncher).
+
 Add the following repo URL under **Custom Plugin Repositories** in your Dalamud settings:
 
 `https://raw.githubusercontent.com/chirpxiv/GoodOmen/refs/heads/main/repo.json`
