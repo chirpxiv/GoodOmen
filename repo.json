@@ -1,0 +1,22 @@
+[
+	{
+		"Author": "Chirp",
+		"Name": "GoodOmen",
+		"InternalName": "GoodOmen",
+		"Punchline": "Accessibility plugin for modifying AoE colors.",
+		"Description": "Accessibility plugin for modifying AoE colors.",
+		"AssemblyVersion": "0.2.0",
+		"TestingAssemblyVersion": "0.2.0",
+		"RepoUrl": "https://github.com/chirpxiv/GoodOmen",
+		"ApplicableVersion": "any",
+		"DalamudApiLevel": 10,
+		"Tags": [
+			"omen",
+			"aoe",
+			"color"
+		],
+		"DownloadLinkInstall": "",
+		"DownloadLinkTesting": "",
+		"DownloadLinkUpdate": ""
+	}
+]
