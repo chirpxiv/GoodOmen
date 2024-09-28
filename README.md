@@ -10,3 +10,5 @@ This is an early implementation that will be refined in later versions.
 Add the following repo URL under **Custom Plugin Repositories** in your Dalamud settings:
 
 `https://raw.githubusercontent.com/chirpxiv/GoodOmen/refs/heads/main/repo.json`
+
+After installing, you can type the `/goodomen` command to access the plugin's settings.
