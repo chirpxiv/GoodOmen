@@ -15,8 +15,8 @@
 			"aoe",
 			"color"
 		],
-		"DownloadLinkInstall": "",
-		"DownloadLinkTesting": "",
-		"DownloadLinkUpdate": ""
+		"DownloadLinkInstall": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.0/latest.zip",
+		"DownloadLinkTesting": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.0/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.0/latest.zip"
 	}
 ]
