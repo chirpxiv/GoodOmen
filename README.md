@@ -7,7 +7,7 @@ This is an early implementation that will be refined in later versions.
 
 ## Bug Reports
 
-Bugs should be reported as [GitHub issues](https://github.com/chirpxiv/GoodOmen/issues/new), which helps me to easily keep track of them. I am unlikely to see direct messages.
+Bugs should be reported as [GitHub issues]([https://github.com/chirpxiv/GoodOmen/issues/new](https://github.com/chirpxiv/GoodOmen/issues)), which helps me to easily keep track of them. I am unlikely to see direct messages.
 
 ## Installation
 
