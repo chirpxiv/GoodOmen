@@ -9,7 +9,7 @@
 		"TestingAssemblyVersion": "0.2.0",
 		"RepoUrl": "https://github.com/chirpxiv/GoodOmen",
 		"ApplicableVersion": "any",
-		"DalamudApiLevel": 10,
+		"DalamudApiLevel": 11,
 		"Tags": [
 			"omen",
 			"aoe",
