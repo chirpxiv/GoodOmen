@@ -6,7 +6,7 @@ using Dalamud.Interface.Utility.Raii;
 using Dalamud.Plugin.Services;
 
 using Lumina.Excel;
-using Lumina.Excel.GeneratedSheets2;
+using Lumina.Excel.Sheets;
 
 using GLib.Popups;
 
@@ -44,23 +44,23 @@ public class DutySelect {
 	
 	public string GetDutyName(ushort id) {
 		var row = this._content.GetRow(id);
-		if (row == null) return "Unknown";
+		if (row.RowId == null) return "Unknown";
 		
-		var name = row.Name.RawString;
+		var name = row.Name.ExtractText();
 		if (name.StartsWith("the "))
 			name = name[0].ToString().ToUpper() + name[1..];
 		return name;
 	}
 
 	private IEnumerable<ContentFinderCondition> GetDuties() => this._content.Where(entry => {
-		var type = entry.ContentType.Row;
+		var type = entry.ContentType.RowId;
 		return type is (>= 2 and <= 5) or 9 or 10 or 21 or 26 or 28 or 30;
 	});
 
 	private static bool DrawItem(ContentFinderCondition row, bool focus) {
-		return ImGui.Selectable(row.Name.RawString, focus);
+		return ImGui.Selectable(row.Name.ExtractText(), focus);
 	}
 
 	private static bool SearchPredicate(ContentFinderCondition row, string query)
-		=> row.Name.RawString.Contains(query, StringComparison.InvariantCultureIgnoreCase);
+		=> row.Name.ExtractText().Contains(query, StringComparison.InvariantCultureIgnoreCase);
 }

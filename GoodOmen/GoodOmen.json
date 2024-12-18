@@ -4,9 +4,9 @@
 	"PunchLine": "Accessibility plugin for modifying AoE colors.",
 	"Description": "Accessibility plugin for modifying AoE colors.",
 	"InternalName": "GoodOmen",
-	"AssemblyVersion": "0.2.0",
+	"AssemblyVersion": "0.2.1",
 	"ApplicableVersion": "any",
-	"DalamudApiLevel": 10,
+	"DalamudApiLevel": 11,
 	"Tags": [
 		"omen",
 		"aoe",
