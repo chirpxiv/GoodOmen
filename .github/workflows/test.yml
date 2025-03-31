@@ -26,14 +26,14 @@ jobs:
         shell: bash
     strategy:
       matrix:
-        dotnet-version: [8.0.x] # Can add multiple .NET versions here to test against (For example, testing a new version of .NET before it's released)
+        dotnet-version: [9.0.x] # Can add multiple .NET versions here to test against (For example, testing a new version of .NET before it's released)
         dalamud-version: ["latest"] # Can add multiple Dalamud branches here to test against (For example, testing against Dalamud staging)
     env:
       DALAMUD_HOME: /tmp/dalamud
       IsCI: true
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0 # We don't need the history for testing builds, so we can save some time by not fetching it
           submodules: true # Grab any submodules that may be required
