@@ -10,7 +10,7 @@ using Lumina.Excel.Sheets;
 
 using GLib.Popups;
 
-using ImGuiNET;
+using Dalamud.Bindings.ImGui;
 
 namespace GoodOmen.Interface;
 
