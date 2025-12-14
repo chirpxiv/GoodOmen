@@ -1,11 +1,11 @@
-<Project Sdk="Dalamud.NET.Sdk/12.0.0">
+<Project Sdk="Dalamud.NET.Sdk/13.0.0">
 	<PropertyGroup>
 		<Authors>Chirp</Authors>
 		<Version>0.2.3.0</Version>
 		<Platforms>x64</Platforms>
 	</PropertyGroup>
 
-	<PropertyGroup Condition="'$(OS)' != 'Windows_NT' OR '$(CI)' == 'true'">
+	<PropertyGroup  Condition="'$(OS)' != 'Windows_NT' OR '$(CI)' == 'true'">
 		<DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
 	</PropertyGroup>
 
