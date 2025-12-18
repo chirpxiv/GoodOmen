@@ -44,7 +44,6 @@ public class DutySelect {
 	
 	public string GetDutyName(ushort id) {
 		var row = this._content.GetRow(id);
-		if (row.RowId == null) return "Unknown";
 		
 		var name = row.Name.ExtractText();
 		if (name.StartsWith("the "))
