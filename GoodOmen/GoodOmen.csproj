@@ -6,7 +6,7 @@
 		<TargetFramework>net10.0-windows</TargetFramework>
 	</PropertyGroup>
 
-	<PropertyGroup>
+	<PropertyGroup Condition="Exists('$(DALAMUD_HOME)') OR '$(OS)' != 'Windows_NT' OR '$(CI)' == 'true'">
 		<DalamudLibPath>$(DALAMUD_HOME)/</DalamudLibPath>
 	</PropertyGroup>
 
