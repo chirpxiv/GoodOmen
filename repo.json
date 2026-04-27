@@ -5,8 +5,8 @@
 		"InternalName": "GoodOmen",
 		"Punchline": "Accessibility plugin for modifying AoE colors.",
 		"Description": "Accessibility plugin for modifying AoE colors.",
-		"AssemblyVersion": "0.2.5",
-		"TestingAssemblyVersion": "0.2.5",
+		"AssemblyVersion": "0.2.6",
+		"TestingAssemblyVersion": "0.2.6",
 		"RepoUrl": "https://github.com/chirpxiv/GoodOmen",
 		"ApplicableVersion": "any",
 		"DalamudApiLevel": 14,
@@ -15,8 +15,8 @@
 			"aoe",
 			"color"
 		],
-		"DownloadLinkInstall": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.5/latest.zip",
-		"DownloadLinkTesting": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.5/latest.zip",
-		"DownloadLinkUpdate": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.5/latest.zip"
+		"DownloadLinkInstall": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.6/latest.zip",
+		"DownloadLinkTesting": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.6/latest.zip",
+		"DownloadLinkUpdate": "https://github.com/chirpxiv/GoodOmen/releases/download/v0.2.6/latest.zip"
 	}
 ]
