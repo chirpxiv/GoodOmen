@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Dalamud.NET.Sdk/15.0.0">
 	<PropertyGroup>
 		<Authors>Chirp</Authors>
-		<Version>0.2.7</Version>
+		<Version>0.2.7.1</Version>
 		<Platforms>x64</Platforms>
 		<TargetFramework>net10.0-windows</TargetFramework>
 	</PropertyGroup>
